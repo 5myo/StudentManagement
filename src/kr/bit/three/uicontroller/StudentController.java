@@ -19,12 +19,12 @@ public class StudentController {
 		input = student_ui.studentMethod();
 		if(input.equals("1")) { //학생 계정 선택
 			lib.cls();
-			System.out.println("수강 신청이 완료되었습니다.");
+			System.out.println("수강을 신청하였습니다.");
 			lib.cls();
 			this.studentMethod();
 		}else if(input.equals("2")) {//교수 계정 선택
 			lib.cls();
-			System.out.println("수강 취소가 완료되었습니다.");
+			System.out.println("수강을 취소하였습니다.");
 			lib.cls();
 			this.studentMethod();
 		}else if(input.equals("3")) { //관리자 계정 선택
